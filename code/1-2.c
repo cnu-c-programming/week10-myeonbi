@@ -19,7 +19,7 @@ int main() {
 
     printf("version: %u, size: %zu\n", s.version, sizeof(s.version));
     printf("ihl: %u, size: %zu\n", s.ihl, sizeof(s.ihl));
-    printf("ttl: %llu, size %zu\n", s.ttl, sizeof(s.ttl));
+    printf("ttl: %llu, size: %zu\n", s.ttl, sizeof(s.ttl));
     printf("protocol: %llu, size: %zu\n", s.protocol, sizeof(s.protocol));
-    printf("data: %s, size %zu\n", s.data, sizeof(s.data));
+    printf("data: %s, size: %zu\n", s.data, sizeof(s.data));
 }
